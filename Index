@@ -1,0 +1,18 @@
+package com.example.myplugin;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class MyPlugin extends JavaPlugin {
+
+    @Override
+    public void onEnable() {
+        // Lógica de inicialización del plugin
+        getLogger().info("¡El plugin ha sido habilitado correctamente!");
+    }
+
+    @Override
+    public void onDisable() {
+        // Lógica de desactivación del plugin
+        getLogger().info("¡El plugin ha sido desactivado correctamente!");
+    }
+}
